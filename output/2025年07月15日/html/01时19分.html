@@ -1,0 +1,82 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-15 01:19:52</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">特朗普</td>
+                    <td class="count">17</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7526959148882202162/" target="_blank" class="news-link">特朗普威胁对俄罗斯征100%关税</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时19分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E5%AF%B9%E4%BF%84%E7%BD%97%E6%96%AF%E5%BE%81%E6%94%B6100%25%E5%85%B3%E7%A8%8E" target="_blank" class="news-link">特朗普称对俄罗斯征收100%关税</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时19分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8kzZGx0e5Sa" target="_blank" class="news-link">特朗普威胁将对俄罗斯征收100%关税</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时19分</font><br>[douyin] <a href="https://www.douyin.com/hot/2167616" target="_blank" class="news-link">特朗普威胁对俄征收100%关税</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时19分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750993" target="_blank" class="news-link">特朗普“周末加班”，美股开盘三大指数走低，中概股多数上涨，黄金微涨，比特币再创新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时19分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8kzaUEZgdCO" target="_blank" class="news-link">特朗普：将向北约提供最先进的武器以支持乌克兰</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时19分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751001" target="_blank" class="news-link">特朗普“告别戒毒所，拥抱金三角”，美银Hartnett：全球股市All In！直到债券崩溃</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时19分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8kzTwkU8IYV" target="_blank" class="news-link">特朗普会见北约秘书长吕特，讨论乌克兰问题</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时19分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8kzTFdVWmav" target="_blank" class="news-link">白宫顾问：特朗普对部分贸易协议仍不满</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时19分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2084893" target="_blank" class="news-link">特朗普再挥关税大棒 美欧股市齐跌 | 今夜看点</a> [6] <font color='grey'>- 01时19分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E5%AF%B9%E4%BF%84%E7%BD%97%E6%96%AF%E5%BE%81%E6%94%B6100%25%E5%85%B3%E7%A8%8E%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">特朗普称对俄罗斯征收100%关税</a> [7] <font color='grey'>- 01时19分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2085051" target="_blank" class="news-link">特朗普威胁将对俄罗斯征收100%关税</a> [8] <font color='grey'>- 01时19分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7526887951003815463/" target="_blank" class="news-link">特朗普涉俄“重大声明”发布在即</a> [9] <font color='grey'>- 01时19分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2084763" target="_blank" class="news-link">特朗普：美国将向乌克兰提供“爱国者”导弹 欧盟承担费用</a> [10] <font color='grey'>- 01时19分</font><br>[douyin] <a href="https://www.douyin.com/hot/2166488" target="_blank" class="news-link">特朗普枪击案调查报告发布</a> [19] <font color='grey'>- 01时19分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%88%87%E5%B0%94%E8%A5%BF%E5%A4%BA%E5%86%A0%E5%BA%86%E7%A5%9D%E7%89%B9%E6%9C%97%E6%99%AE%E7%A1%AC%E5%8D%A0C%E4%BD%8D" target="_blank" class="news-link">切尔西夺冠庆祝特朗普硬占C位</a> [20] <font color='grey'>- 01时19分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7526910237857599003/" target="_blank" class="news-link">特朗普称美上月因关税赚了250亿美元</a> [23] <font color='grey'>- 01时19分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7526887951003815463/" target="_blank" class="news-link">特朗普涉俄“重大声明”发布在即</a> [9]</li></ul></div>
+        </body>
+        </html>
+        
